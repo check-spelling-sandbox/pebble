@@ -41,7 +41,7 @@ void metric_group_destroy(MetricGroup *metric_group);
 //! Adds an item to a metric group
 //! @param metric_group MetricGroup to add an item to
 //! @param name_i18n i18n key of the name string
-//! @param value value field string
+//! @param value field string
 //! @param icon TimelineResourceId icon id
 //! @param i18n_owner i18n owner to use
 //! @return true if the item was added, false otherwise
