@@ -26,7 +26,7 @@
  * Otherwise, throw-completion value is just copied to return_value.
  *
  * Note:
- *      Each ECMA_TRY_CATCH should have it's own corresponding ECMA_FINALIZE
+ *      Each ECMA_TRY_CATCH should have its own corresponding ECMA_FINALIZE
  *      statement with same argument as corresponding ECMA_TRY_CATCH's first argument.
  */
 #define ECMA_TRY_CATCH(var, op, return_value) \
@@ -61,7 +61,7 @@
  * Otherwise, throw-completion value is just copied to return_value.
  *
  * Note:
- *      Each ECMA_OP_TO_NUMBER_TRY_CATCH should have it's own corresponding ECMA_OP_TO_NUMBER_FINALIZE
+ *      Each ECMA_OP_TO_NUMBER_TRY_CATCH should have its own corresponding ECMA_OP_TO_NUMBER_FINALIZE
  *      statement with same argument as corresponding ECMA_OP_TO_NUMBER_TRY_CATCH's first argument.
  */
 #define ECMA_OP_TO_NUMBER_TRY_CATCH(num_var, value, return_value) \
